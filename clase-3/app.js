@@ -69,7 +69,6 @@ app.patch('/movies/:id', (req, res) => {
     movies[movieIndex] = updateMovie
 
     return res.json(updateMovie)
-
 })
 
 const PORT = process.env.PORT ?? 1234;
